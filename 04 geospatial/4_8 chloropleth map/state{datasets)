@@ -1,0 +1,31 @@
+
+state {datasets}	R Documentation
+
+US State Facts and Figures
+Description
+Data sets related to the 50 states of the United States of America.
+Usage
+state.abb
+state.area
+state.center
+state.division
+state.name
+state.region
+state.x77
+
+Details
+R currently contains the following “state” data sets. Note that all data are arranged according to alphabetical order of the state names.
+	state.abb:
+		character vector of 2-letter abbreviations for the state names.
+	state.area:
+		numeric vector of state areas (in square miles).
+	state.center:
+		list with components named x and y giving the approximate geographic center of each state in negative longitude and latitude. Alaska and Hawaii are placed just off the West Coast.
+	state.division:
+		factor giving state divisions (New England, Middle Atlantic, South Atlantic, East South Central, West South Central, East North Central, West North Central, Mountain, and Pacific).
+	state.name:
+		character vector giving the full state names.
+	state.region:
+		factor giving the region (Northeast, South, North Central, West) that each state belongs to.
+	state.x77:
+		matrix with 50 rows and 8 columns giving the following statistics in the respective columns.
